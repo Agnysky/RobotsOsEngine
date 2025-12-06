@@ -15,7 +15,7 @@ namespace Video_1._3
         {
             levels = new List<decimal>();
 
-            Writline();
+            Writеline();
             //string str = Readline("Введите количество уровней");
             //Console.WriteLine("Введите количество уровней");
             //string str  = Console.ReadLine();
@@ -46,7 +46,7 @@ namespace Video_1._3
                 levels.Add(pricelevel);
                 pricelevel -= steplevel;
             }
-            Writline();
+            Writеline();
         }
         static decimal Steplevel
         // Все последующее коротко: s..d.. Steplevel (get; set;)
@@ -67,7 +67,7 @@ namespace Video_1._3
             Console.WriteLine(message);
             return Console.ReadLine();
         }
-        static void Writеline()
+        static void Writеline()s
         {
             Console.WriteLine("Количество элементов в списке: " + countlevels.ToString());
             for (int i = 0; i < countlevels; i++)
