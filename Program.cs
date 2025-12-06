@@ -50,7 +50,6 @@ namespace Video_1._3
         }
         static decimal Steplevel
         // Все последующее коротко: s..d.. Steplevel (get; set;)
-        //        
         // По сути, поле get - свойство работает в режиме "чтения", а поле set - "запись"
         {
             get
